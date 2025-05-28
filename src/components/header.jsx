@@ -1,4 +1,4 @@
-import "./header.css";
+import "/dist/header.css";
 
 export default function Header (){
 
