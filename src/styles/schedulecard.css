@@ -1,0 +1,22 @@
+.schedule-card-container{
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    margin:  1rem 0 2rem;
+    background: #DEE2FC;
+    color: #312893;
+    
+
+}
+
+.schedule-card-header{
+
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+
+}
+

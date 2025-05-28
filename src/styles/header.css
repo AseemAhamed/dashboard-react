@@ -1,0 +1,159 @@
+.header-main-container{
+
+  display: grid;
+  grid-template-columns: 14% 43% 43%;
+  grid-template-rows: 150px;
+  justify-content: space-between;
+  margin: 0;
+  
+}
+
+.header-logo{
+
+  background: #f6faff;
+  justify-self: stretch;
+  position: sticky;
+
+}
+
+.header-logo h1{
+
+  margin: 4rem 0 0;
+  display: inherit;
+  justify-self: center;
+  align-self: center;
+  color: #19CED7;
+
+}
+
+.header-logo h1 span{
+
+  color: #141040;
+
+}
+
+.header-logo-container{
+
+  align-self: center;
+
+}
+
+.search-container{
+
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 0 0 0 1.5rem;
+    background: white;
+}
+
+form, .notification-icon{
+
+  margin: 4rem 0 0;
+
+}
+
+form{
+
+  width: 80%;
+  height: min-content;
+
+}
+
+.search-bar{
+
+    
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1.2rem;
+    box-shadow: 0 1px 5px 0 rgba(24, 24, 24, 0.3), 0 2px 10px 0 rgba(24, 24, 24, 0.15);
+    border-radius: 0.4rem;
+    
+
+}
+
+.search-input{
+
+    font-size: 1rem;
+    margin-left: 0.8rem;
+    width: 100%;
+    border: none;
+    outline: none;
+
+}
+
+.notification-icon{
+
+    height: min-content;
+    box-shadow: 0 1px 5px 0 rgba(24, 24, 24, 0.3), 0 2px 10px 0 rgba(24, 24, 24, 0.15);
+    border-radius: 0.4rem;
+
+}
+
+.notification-icon svg{
+
+  align-items: center;
+  justify-content: center;
+  color: #342EBE;
+  fill: #342EBE;
+  border-radius: 0.4rem;
+  margin: 0.5rem 0.3rem;
+  width: 30px;
+  height: 25px;
+
+}
+
+.account-container{
+
+   background: #f6faff;
+  justify-self: stretch;
+  width: inherit;
+
+}
+
+.account-container ul{
+
+  width: 100%;
+  margin: 4rem 0 0 0;
+  display: flex;
+  justify-content: end;
+  gap: 3rem;
+  padding: 0;
+  
+
+}
+
+
+.account-container ul li{
+
+  list-style-type: none;
+
+}
+
+.account-container ul li:last-child{
+
+  margin: 0 5rem 0 0;
+
+}
+
+.icon{
+
+    
+    
+    
+}
+
+.account-icon img{
+
+  background: #07DFE8;
+  border-radius: 0.5rem;
+
+}
+
+.plus-icon svg{
+
+  background: #3631A4;
+  border-radius: 0.5rem;
+  color: white;
+
+}

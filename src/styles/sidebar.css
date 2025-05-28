@@ -1,0 +1,100 @@
+.sidebar-main-container{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  background: #F6FAFF;
+  height: 100vh;
+
+}
+
+.sidebar-general, .sidebar-tools, .sidebar-settings{
+  
+  width: 61%;
+  color: #b6bcc5;
+
+}
+
+.sidebar-settings{
+
+  margin: 8rem 0 0;
+
+}
+
+.sidebar-general ul, .sidebar-tools ul, .sidebar-settings ul{
+
+  padding: 0;
+
+}
+
+.sidebar-general ul li, .sidebar-tools ul li, .sidebar-settings ul li{
+
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin: 1.8rem 0;
+
+}
+
+.sidebar-general h3, .sidebar-tools h3{
+
+  color: #dbe2e9;
+
+} 
+
+/* .sidebar-main-container{
+
+    width: 14%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    
+    background: #f6faff;
+    color: #adb1b6;
+    z-index: 1;
+
+}
+
+.sidebar-container{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+h3{
+
+    color: #cdd1d5;
+
+}
+
+ul{
+
+    padding: 0;
+
+}
+
+ul li{
+
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin: 1.7rem 0;
+
+}
+
+
+.sidebar-general, .sidebar-tools, .sidebar-settings{
+
+   width: 65%;
+
+} 

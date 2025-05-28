@@ -1,0 +1,76 @@
+.anatomy-container{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+    
+
+}
+
+.human-anatomy-img img{
+
+    width: 18.5rem;
+    height: 25rem;
+    border-radius: 1rem;
+    background: #F6FAFF;
+
+}
+
+.organ-health-container{
+
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    margin: 0 1.5rem 0 0;
+
+}
+
+.lungs, .teeth, .bone{
+
+    display: flex;
+    flex-direction: column;
+    background: #DDE2F9;
+    padding: 1rem 3rem 1rem 0.5rem;
+    width: max-content;
+    border-radius: 1rem;
+
+}
+
+.organ-heading{
+
+    font-weight: bold;
+    color: #111359;
+    font-size: 1.2rem;
+
+}
+
+p{
+
+    margin: 0;
+    font-size: 0.8rem;
+    color: #94b0d2;
+
+}
+
+.organ-desc{
+
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+
+.organ-img{
+
+    margin-right: 0.5rem;
+    
+
+}
+
+.organ-img img{
+
+    width: 50px;
+    height: 50px;
+
+}

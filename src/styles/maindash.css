@@ -1,0 +1,111 @@
+.main-dash-container {
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+h1{
+
+    color: #0B1351;
+
+}
+
+.week{
+
+    color:  #101b70;
+    font-weight: bold;
+    font-size: 0.9rem;
+
+}
+
+.week-container div svg{
+
+    color:  #101b70;
+    font-weight: bold;
+
+}
+
+.main-dash2-container {
+
+    width: 100%;
+    background: #F6FAFF;
+
+}
+
+.calender-main-container {
+
+    padding: 1rem 2rem;
+    background: #F6FAFF;
+    height: max-content;
+
+
+}
+.main-dash1-container{
+
+    margin: 0 1rem;
+
+}
+
+.heading-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.week-container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+ 
+}
+
+.appointment-card {
+
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 2rem;
+
+}
+
+.schedule-card{
+
+    margin: 2rem;
+
+}
+
+.anatomy-main-container{
+
+    margin: 0 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.details{
+
+        align-self: flex-end;
+        margin-top: 1rem;
+        margin-right: 3rem;
+        
+}
+
+.details a{
+
+    display: flex;
+    justify-content: center;
+    gap: 0.12rem;
+    text-decoration: none;
+    color: #101B70;
+    font-size: 0.8rem
+;
+
+
+}
