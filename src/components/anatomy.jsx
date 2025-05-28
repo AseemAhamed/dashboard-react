@@ -1,4 +1,4 @@
-import ",/dist/anatomy.css";
+import "./anatomy.css";
 import HumanBody from "../assets/human_body.png";
 
 export default function Anatomy(){

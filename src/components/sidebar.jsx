@@ -1,4 +1,4 @@
-import "./dist/sidebar.css";
+import "./sidebar.css";
 
 export default function Sidebar(){
 

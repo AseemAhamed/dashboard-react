@@ -1,4 +1,4 @@
-import "./dist/schedulecard.css";
+import "./schedulecard.css";
 
 export default function ScheduleDay(props) {
 
