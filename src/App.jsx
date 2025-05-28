@@ -18,17 +18,8 @@ function App() {
       </div>
       <div className="content-container">
 
- 
-
           <Sidebar/>
-
-          
-
-            <MainDash/>
-
-
-          
-        
+          <MainDash/>
 
       </div>
 
