@@ -1,4 +1,4 @@
-import "/dist/card.css";
+import "./dist/card.css";
 
 export default function Card(props){
     

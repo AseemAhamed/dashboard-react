@@ -1,4 +1,4 @@
-import "/dist/activity.css";
+import "./dist/activity.css";
 
 const data = {
   Mon: [50, 80, 60],

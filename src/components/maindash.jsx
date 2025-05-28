@@ -3,7 +3,7 @@ import Calender from "./calender";
 import Card from "./card";
 import Schedule from "./schedule";
 import Activity from "./activity";
-import "/dist/maindash.css";
+import "./dist/maindash.css";
 
 export default function MainDash(){
 
