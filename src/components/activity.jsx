@@ -1,5 +1,4 @@
-
-import '../styles/activity.css';
+import "./activity.css";
 
 const data = {
   Mon: [50, 80, 60],

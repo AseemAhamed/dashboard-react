@@ -1,5 +1,5 @@
-import "../styles/scheduleday.css";
-import ScheduleCard from "./schedulecard"
+import ScheduleCard from "./schedulecard";
+import "./scheduleday.css";
 
 export default function ScheduleDay(props) {
 

@@ -1,9 +1,9 @@
 import Anatomy from "./anatomy";
 import Calender from "./calender";
 import Card from "./card";
-import '../styles/maindash.css'
 import Schedule from "./schedule";
-import Activity from "./activity"
+import Activity from "./activity";
+import "./maindash.css";
 
 export default function MainDash(){
 

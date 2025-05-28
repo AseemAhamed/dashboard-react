@@ -1,5 +1,5 @@
-import "../styles/schedule.css";
 import ScheduleDay from "./scheduleday";
+
 
 export default function Schedule(){
 
